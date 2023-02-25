@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: burlywood;
+  font-size: 1.8rem;
+}
+
+button {
+  display: inline-block;
+  background-color: lightblue;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40%;
+
+  padding: 1rem;
+  background-color: green;
+}
+
+.btn-off {
+  pointer-events: none;
+  background-color: grey;
+}
+
+.table-box {
+  height: 100rem;
+  font-size: inherit;
+}
